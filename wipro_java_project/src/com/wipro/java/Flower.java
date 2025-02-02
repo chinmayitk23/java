@@ -28,9 +28,9 @@ public class Flower {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Flower rose = new Flower("Rose", "Pink");
+		Flower rosee = new Flower("Rose", "Pink");
 		Flower sunflower = new Flower("Sunflower", "Yellow");
-		 rose.displayDetails();
+		 rosee.displayDetails();
 		 sunflower.displayDetails();
 
 		// TODO Auto-generated method stub
