@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
 /**
  * 
@@ -23,7 +23,7 @@ public class Manager extends Employee{
 		// parent class consumes the prop and behaviors of child class
 
 		Employee employee = new Manager();
-		employee.setEmpName("Manikanta");
+		employee.setEmpName("Chinmayi");
 		employee.setEmpId(1235);
 		employee.setEmpAge(47);
 		employee.setEmpDesignation("Manager");
