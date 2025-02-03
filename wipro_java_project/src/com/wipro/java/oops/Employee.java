@@ -1,64 +1,52 @@
-/**
- * 
- */
 package com.wipro.java.oops;
 
 /**
- * POJO:plain old java object access through getter/setter
+ * Plain Old Java Object(POJO) Class Animal
+ * No constructor getters have return
+ * Value setters have no return value properties are determined using private
+ * fields values are behaviors are determined through via setters
+ * toString will convert the entire animal class with properties and behaviors
+ * 
  */
-
 public class Employee {
-	private int employee_id;
-	private String name;
-	private String emailID;
-	private float salary;
 
-	/**
-	 * 
-	 */
-	
-
-	public int getEmployee_id() {
-		return employee_id;
+	private int empId;// Employee ID
+	private String empName;//Employee Name
+	private int empAge;//employee Age
+	private String empDesignation;//Employee Designation
+	private float Salary;//Employee Salary
+	//Getters and Setters
+	public int getEmpId() {
+		return empId;
 	}
-
-	public void setEmployee_id(int employee_id) {
-		this.employee_id = employee_id;
+	public void setEmpId(int empId) {
+		this.empId = empId;
 	}
-
-	public String getName() {
-		return name;
+	public String getEmpName() {
+		return empName;
 	}
-
-	public void setName(String name) {
-		this.name = name;
+	public void setEmpName(String empName) {
+		this.empName = empName;
 	}
-
-	public String getEmailID() {
-		return emailID;
+	public int getEmpAge() {
+		return empAge;
 	}
-
-	public void setEmailID(String emailID) {
-		this.emailID = emailID;
+	public void setEmpAge(int empAge) {
+		this.empAge = empAge;
 	}
-
+	public String getEmpDesignation() {
+		return empDesignation;
+	}
+	public void setEmpDesignation(String empDesignation) {
+		this.empDesignation = empDesignation;
+	}
 	public float getSalary() {
-		return salary;
+		return Salary;
 	}
-
 	public void setSalary(float salary) {
-		this.salary = salary;
+		Salary = salary;
 	}
-	public Employee() {
-		// TODO Auto-generated constructor stub
-	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	
+	
 
 }

@@ -60,8 +60,5 @@ public class Animal {
 	 public String toString() {
 	        return "Animal [name=" + name + ", age=" + age + ", species=" + species + "]";
 	    }
-	 public static void main(String[] args) {
-			// TODO Auto-generated method stub
-
-		}
+	 
 }
