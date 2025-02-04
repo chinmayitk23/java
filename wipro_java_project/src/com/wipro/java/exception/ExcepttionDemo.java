@@ -10,12 +10,10 @@ public class ExcepttionDemo {
 
             int result = numerator / denominator;
             System.out.println("Result: " + result);
-        } catch (ArithmeticException e) {
-           
-            System.out.println("Error: Division by zero is not allowed.");
+        
         } catch (Exception e) {
            
-            System.out.println("Error: Something went wrong.");
+            System.out.println(e.toString());
         } finally {
             
             System.out.println("Execution complete.");
