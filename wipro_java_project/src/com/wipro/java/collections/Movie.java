@@ -14,6 +14,7 @@ public class Movie implements Comparable<Movie> {
         this.rating = rating;
 		// TODO Auto-generated constructor stub
 	}
+	// Implementing compareTo to sort by rating (ascending order)
 	 public int compareTo(Movie other) {
 	        return Double.compare(this.rating, other.rating);
 	    }
@@ -33,6 +34,7 @@ public class Movie implements Comparable<Movie> {
 	        movies.add(new Movie("Interstellar", 2014, 8.6));
 	        movies.add(new Movie("Inception", 2010, 8.8));
 	        movies.add(new Movie("The Dark Knight", 2008, 9.0));
+	        //// Sorting movies by rating (ascending order)
 	        Collections.sort(movies);
 	        System.out.println("Movies after sorting by rating");
 	        for(Movie movie : movies) {
