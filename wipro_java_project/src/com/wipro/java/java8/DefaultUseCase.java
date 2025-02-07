@@ -2,19 +2,14 @@ package com.wipro.java.java8;
 
 //First Interface
 interface InterfaceA {
- 
- 
- // Default method
+  // Default method
  default void commonMethod() {
      System.out.println("Default method from InterfaceA");
  }
 }
 
 //Second Interface
-interface InterfaceB {
- 
-
- 
+interface InterfaceB { 
  // Default method (same name as in InterfaceA)
  default void commonMethod() {
      System.out.println("Default method from InterfaceB");
@@ -23,10 +18,7 @@ interface InterfaceB {
 
 //Class implementing both interfaces
 class DefaultUseCase implements InterfaceA, InterfaceB {
-
- 
-
- // Resolving conflict for the default method
+// Resolving conflict for the default method
  @Override
  public void commonMethod() {
      // Choosing to call InterfaceA's commonMethod
