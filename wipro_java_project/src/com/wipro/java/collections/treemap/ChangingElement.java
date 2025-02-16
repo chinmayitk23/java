@@ -1,8 +1,6 @@
 package com.wipro.java.collections.treemap;
 
-public class  {
 
-}
 //Java program to Illustrate Updation of Elements
 //in TreeMap using put() Method
 

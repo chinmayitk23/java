@@ -16,7 +16,7 @@ class Iterating {
      TreeMap<Integer, String> tm = new TreeMap<Integer, String>(); // O(1)
 
      // Inserting the elements using put() method
-     tm.put(3, "Geeks"); // O(log n)
+     tm.put(3, "Geekss"); // O(log n)
      tm.put(2, "For");   // O(log n)
      tm.put(1, "Geeks"); // O(log n)
 
