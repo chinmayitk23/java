@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.*;
 
 public class NumberGuessingGame {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/game";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/game1?createDatabaseIfNotExist=true";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "Chinmayi@23";
     
