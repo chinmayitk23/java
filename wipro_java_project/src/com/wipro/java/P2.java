@@ -54,7 +54,7 @@ public static void main(String[] args) {
 
    // Integer stack
    Stack<Integer> integerStack = new Stack<>();
-   System.out.println("Enter integers (enter a non-integer to stop):");
+   System.out.println("Enterr integers (enter a non-integer to stop):");
    while (scanner.hasNextInt()) {
        int userInput = scanner.nextInt();
        integerStack.push(userInput);
